@@ -3,20 +3,16 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 import ContactPage from '../pages/ContactPage';
 
-
-
 const Header = () => {
   return (
     <div className=''>
-            <div class=" px-2 md:flex md:flex-row md:justify-between text-center text-sm sm:text-base">
-      <div class="flex flex-row justify-center">
+      <div class=" px-2 md:flex md:flex-row md:justify-between text-center text-sm sm:text-base">
+        <div class="flex flex-row justify-center">
 
         <Link className='p-4' to="/">
             <img className='w-[14vh] ' src="/logo.png" />
         </Link>
-
-
-
+        
       </div>
       <div class="mt-6">
      
